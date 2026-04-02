@@ -1,30 +1,14 @@
-# 🔧 Aurora Omni Kernel
+# aurora-omni-kernel
 
-**Núcleo Técnico Unificado do Ecossistema Aurora**
+## Descrição / Description
+**PT-BR:** Este repositório faz parte do ecossistema de soberania tecnológica da Impulso Digital.
+**EN:** This repository is part of the Impulso Digital technological sovereignty ecosystem.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Status: Active Development](https://img.shields.io/badge/Status-Active%20Development-brightgreen.svg)]()
+## Estrutura / Structure
+- `src/`: Código-fonte / Source code
+- `docs/`: Documentação / Documentation
+- `tests/`: Testes / Tests
+- `scripts/`: Scripts de automação / Automation scripts
 
-## 📋 Visão Geral
-
-O **Aurora Omni Kernel** é o núcleo técnico unificado que integra todos os componentes do ecossistema Aurora. Este projeto fornece a infraestrutura fundamental para comunicação, processamento e coordenação de todos os módulos do sistema.
-
-## 🎯 Características
-
-- Integração unificada de componentes
-- Processamento de eventos distribuído
-- Gerenciamento de recursos centralizado
-- APIs de baixa latência
-
-## 📞 Suporte
-
-- Email: support@impulsodigital.com.br
-- Website: https://www.impulsodigital.com.br
-
-## 📄 Licença
-
-MIT License
-
----
-
-*Parte do Ecossistema Aurora*
+## Autor / Author
+Felipe Marcos de Abreu Aquino - Senior Developer & Machine Learning Engineer
