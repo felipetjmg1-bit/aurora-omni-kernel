@@ -1,4 +1,4 @@
-![Status: Protótipo](https://img.shields.io/badge/Status-Protótipo-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/aurora-omni-kernel)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+![Status: Protótipo](https://img.shields.io/badge/Status-API%20demonstrativa-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/aurora-omni-kernel)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 <p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de Aurora Omni Kernel" width="100%"></p>
 
