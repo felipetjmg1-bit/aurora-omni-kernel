@@ -1,17 +1,17 @@
-![Status: Protótipo](https://img.shields.io/badge/Status-API%20demonstrativa-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/aurora-omni-kernel)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+![Status: API demonstrativa](https://img.shields.io/badge/Status-API%20demonstrativa-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/aurora-omni-kernel)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 <p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de Aurora Omni Kernel" width="100%"></p>
 
 
-# Aurora Omni Kernel — Protótipo de API
+# Aurora Omni Kernel — API demonstrativa
 
 ## Visão geral
 
-Embora o README descreva uma iniciativa de soberania tecnológica com IA e blockchain, o conteúdo verificável é um protótipo pequeno: uma ponte HTTP FastAPI com validação simulada de Aurora ID baseada em formato de endereço TON, mais esqueletos não implementados para um core Rust e funções de vault. Não há evidência no código inspecionado de um kernel de sistema operacional funcional, integração real com TON, IA operacional ou criptografia implementada.
+Embora o README descreva uma iniciativa de soberania tecnológica com IA e blockchain, o conteúdo verificável é uma implementação inicial: uma ponte HTTP FastAPI com validação simulada de Aurora ID baseada em formato de endereço TON, mais esqueletos não implementados para um core Rust e funções de vault. Não há evidência no código inspecionado de um kernel de sistema operacional funcional, integração real com TON, IA operacional ou criptografia implementada.
 
 ## Objetivo e valor
 
-**Problema/escopo:** Protótipo de ponte FastAPI para validação simulada de Aurora ID, com componentes iniciais em Python e Rust.
+**Problema/escopo:** Ponte FastAPI demonstrativa para validação simulada de Aurora ID, com componentes iniciais em Python e Rust.
 
 **Valor verificável hoje:** o repositório torna explícitos seus artefatos, interfaces e limitações para que mantenedores e contribuidores possam avaliar o que existe sem confundir demonstração, proposta e produção.
 
@@ -57,7 +57,7 @@ A validação é simulada por formato e não consulta a rede TON; o endpoint de 
 
 ## Estado e limitações
 
-**Maturidade indicada:** Protótipo.
+**Estado de entrega:** API demonstrativa com componentes ainda não integrados.
 
 - A classe AuroraTONConnector não consulta toncenter: valida apenas prefixo/comprimento e cria identificador local derivado por SHA-256; saldo é retornado como 1000.0 fixo.
 - GET `/kernel/status` retorna valores literais, inclusive `uptime: 99.99%`; não representa telemetria verificada.
